@@ -1,8 +1,8 @@
 class Bbdown < Formula
   desc "Bilibili video downloader - 哔哩哔哩下载器"
   homepage "https://github.com/LeviTK/BBDown"
-  url "https://github.com/LeviTK/BBDown/archive/refs/tags/v1.6.3.tar.gz"
-  sha256 "ee34d6f49c5f8dc0f85395e7f06e4755351689819c1891ca9fece15d10904f8d"
+  url "https://github.com/LeviTK/BBDown/archive/refs/tags/v1.6.4.tar.gz"
+  sha256 "725ea57bb737c875d0bd0399836e1aa58c46b120a5ce06625ae479217a99a466"
   license "MIT"
   head "https://github.com/LeviTK/BBDown.git", branch: "master"
 
@@ -25,7 +25,7 @@ class Bbdown < Formula
 
   def caveats
     <<~EOS
-      BBDown requires .NET 9.0 runtime.
+      BBDown requires .NET 10.0 runtime.
       
       If you haven't installed it yet:
         brew install --cask dotnet-sdk
