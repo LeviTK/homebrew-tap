@@ -2,7 +2,7 @@ class Bbdown < Formula
   desc "Bilibili video downloader - 哔哩哔哩下载器"
   homepage "https://github.com/LeviTK/BBDown"
   url "https://github.com/LeviTK/BBDown/archive/refs/tags/v1.6.3.tar.gz"
-  sha256 :no_check
+  sha256 "ee34d6f49c5f8dc0f85395e7f06e4755351689819c1891ca9fece15d10904f8d"
   license "MIT"
   head "https://github.com/LeviTK/BBDown.git", branch: "master"
 
