@@ -25,13 +25,11 @@ class Bbdown < Formula
 
   def caveats
     <<~EOS
-      BBDown requires .NET 10.0 runtime.
-      
-      If you haven't installed it yet:
-        brew install --cask dotnet-sdk
-      
       To login to Bilibili:
         bbdown login
+      
+      For video muxing, ffmpeg is recommended:
+        brew install ffmpeg
     EOS
   end
 
