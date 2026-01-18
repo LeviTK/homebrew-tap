@@ -39,3 +39,25 @@ bbdown "https://www.bilibili.com/video/BV1xxxxxx"
 ```
 
 For more options, see [BBDown documentation](https://github.com/LeviTK/BBDown).
+
+
+### N_m3u8DL-RE
+
+Cross-platform DASH/HLS/MSS downloader
+
+```bash
+brew install --HEAD n-m3u8dl-re
+```
+
+#### Requirements
+
+- dotnet (SDK)
+- ffmpeg
+
+#### Usage
+
+```bash
+N_m3u8DL-RE --help
+```
+
+For more options, see [N_m3u8DL-RE documentation](https://github.com/LeviTK/N_m3u8DL-RE).
