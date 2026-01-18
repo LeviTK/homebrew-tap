@@ -1,4 +1,4 @@
-class Nm3u8dlRe < Formula
+class NM3u8dlRe < Formula
   desc "Cross-platform DASH/HLS/MSS downloader"
   homepage "https://github.com/LeviTK/N_m3u8DL-RE"
   license "MIT"
