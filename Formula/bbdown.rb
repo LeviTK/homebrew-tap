@@ -1,5 +1,5 @@
 class Bbdown < Formula
-  desc "Bilibili video downloader - 哔哩哔哩下载器"
+  desc "Bilibili video downloader - 哔哩哔哩下载器 (supports Apple Silicon)"
   homepage "https://github.com/LeviTK/BBDown"
   url "https://github.com/LeviTK/BBDown/archive/refs/tags/v1.6.4.tar.gz"
   sha256 "725ea57bb737c875d0bd0399836e1aa58c46b120a5ce06625ae479217a99a466"
