@@ -1,8 +1,10 @@
 class NM3u8dlRe < Formula
   desc "Cross-platform DASH/HLS/MSS downloader"
   homepage "https://github.com/LeviTK/N_m3u8DL-RE"
+  url "https://github.com/LeviTK/N_m3u8DL-RE/archive/refs/tags/v0.5.1-beta.tar.gz"
+  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
   license "MIT"
-  head "https://github.com/LeviTK/N_m3u8DL-RE.git", branch: "main"
+  version "0.5.1"
 
   # 必需依赖
   depends_on "dotnet" => :build
@@ -13,8 +15,6 @@ class NM3u8dlRe < Formula
   depends_on "bento4" => :recommended      # mp4decrypt 解密
 
   def install
-    odie "This formula is HEAD-only." unless build.head?
-
     rid = Hardware::CPU.arm? ? "osx-arm64" : "osx-x64"
 
     # 使用 framework-dependent 发布，减小体积
@@ -59,6 +59,6 @@ class NM3u8dlRe < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/N_m3u8DL-RE --version", 0)
+    assert_match "0.5.1", shell_output("#{bin}/N_m3u8DL-RE --version", 0)
   end
 end
