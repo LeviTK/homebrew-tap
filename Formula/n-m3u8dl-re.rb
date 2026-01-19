@@ -2,7 +2,7 @@ class NM3u8dlRe < Formula
   desc "Cross-platform DASH/HLS/MSS downloader"
   homepage "https://github.com/LeviTK/N_m3u8DL-RE"
   url "https://github.com/LeviTK/N_m3u8DL-RE/archive/refs/tags/v0.5.2-beta.tar.gz"
-  sha256 "f6db257ee977c2341ed669119bfcc44a111c42a518cd7efc2e3ea7c46bc3db65"
+  sha256 "44e6b2019ea9514fd66fbbfef9815ae05d0f24d96e65f67fecd1095aabd470ea"
   license "MIT"
   version "0.5.2"
 
