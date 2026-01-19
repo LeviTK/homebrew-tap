@@ -1,10 +1,10 @@
 class NM3u8dlRe < Formula
   desc "Cross-platform DASH/HLS/MSS downloader"
   homepage "https://github.com/LeviTK/N_m3u8DL-RE"
-  url "https://github.com/LeviTK/N_m3u8DL-RE/archive/refs/tags/v0.5.1-beta.tar.gz"
-  sha256 "55559fec4deef7e40a4d45eebb699865f01d04f7e72110ce5d11b4ca3e655a93"
+  url "https://github.com/LeviTK/N_m3u8DL-RE/archive/refs/tags/v0.5.2-beta.tar.gz"
+  sha256 "f6db257ee977c2341ed669119bfcc44a111c42a518cd7efc2e3ea7c46bc3db65"
   license "MIT"
-  version "0.5.1"
+  version "0.5.2"
 
   # 必需依赖
   depends_on "dotnet" => :build
@@ -59,6 +59,6 @@ class NM3u8dlRe < Formula
   end
 
   test do
-    assert_match "0.5.1", shell_output("#{bin}/N_m3u8DL-RE --version", 0)
+    assert_match "0.5.2", shell_output("#{bin}/N_m3u8DL-RE --version", 0)
   end
 end
